@@ -1,0 +1,46 @@
+.card-divs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+
+}
+.btn{
+  border-radius: 40px;
+  width:100%
+}
+.buttondiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+ 
+}
+.heading{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.list-item{
+  list-style-type: none;
+}
+body{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(0, 132, 255);
+}
+.prodiv , .freediv ,.plusdiv{
+  border: 1px darkcyan solid;
+  margin: 20px;
+}
+.true-content{
+  color: black;
+}
+.false-content{
+color: red;
+}
+.free-button,.plus-button{
+  background-color: rgb(50, 163, 233);
+}
