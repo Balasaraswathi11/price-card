@@ -2,12 +2,14 @@ function Cards({ card }) {
     return (
       <>
       
-        <div className="card">
-          <div className="card-header text-center">
-            <p>{card.header.para}</p>
-            <h1>{card.header.heading}</h1>
+        <div className="card ">
+          <div className=" header text-center">
+            
+            <p className="paraofcard">{card.header.para}</p>
+            <h2 className="headofcard">{card.header.heading}</h2>
+            <hr />
           </div>
-          <div className="card-body ">
+          <div className="card-body  ">
           <ul className="card-text" >
             {card.body.map((item, ind) => (
               <li className="list-item p-1" key={ind} style={{ color: item.correct ? 'black' : 'grey' }}> 

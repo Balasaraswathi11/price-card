@@ -8,12 +8,22 @@
 }
 .btn{
   border-radius: 40px;
-  width:100%
+  height: 100%;
+  width:100%;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+
+
+
+}
+.headofcard{
+font-size: 40px;
 }
 .buttondiv{
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  align-items: center;
  
 }
 .heading{
@@ -22,6 +32,13 @@
 }
 .list-item{
   list-style-type: none;
+}
+hr{
+  width: 100%;
+}
+.header{
+  padding: 20px;
+  margin-top: 10px;
 }
 body{
   
@@ -32,9 +49,19 @@ body{
   background-color: rgb(0, 132, 255);
 }
 .prodiv , .freediv ,.plusdiv{
-  border: 1px darkcyan solid;
+
   margin: 20px;
-  border-radius:20px;
+
+}
+
+.paraofcard{
+  color: rgb(168, 167, 167);
+  font-weight: bold;
+}
+.card{
+  border-radius: 30px;
+  width: 22rem;
+
 }
 .true-content{
   color: black;
@@ -45,3 +72,5 @@ color: red;
 .free-button,.plus-button{
   background-color: rgb(50, 163, 233);
 }
+ul{text-align: left;
+padding-left: 10px;}
