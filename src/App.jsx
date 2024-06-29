@@ -55,7 +55,7 @@ function App(){//creating app function
   heading:"$49/month"},
 
  body:[
- {content:"50Users" ,correct:true
+ {content:"Unlimited Users" ,correct:true
  },
  {content:"50GB Storage",correct:true},
  {content:"Unlimited Public Projects",correct:true},
