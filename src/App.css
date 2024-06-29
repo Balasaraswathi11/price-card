@@ -34,6 +34,7 @@ body{
 .prodiv , .freediv ,.plusdiv{
   border: 1px darkcyan solid;
   margin: 20px;
+  border-radius:20px;
 }
 .true-content{
   color: black;
